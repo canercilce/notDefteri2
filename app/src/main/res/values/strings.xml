@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">notDefteri2</string>
+    <string name="textview">TextView</string>
+    <string name="ba_l_k">Başlık</string>
+    <string name="i_erik">içerik</string>
+    <string name="kaydet">KAYDET</string>
+    <string name="ptal">İptal</string>
+    <string name="addnote">addNote</string>
+    <string name="hen_z_not_yok">Henüz not yok.</string>
+    <string name="baslik">baslik</string>
+    <string name="aciklama">aciklama</string>
+    <string name="bu_notu_silmek_istedi_ine_emin_misin">Bu notu silmek istediğine emin misin?</string>
+    <string name="geri">geri</string>
+    <string name="sil">sil</string>
+    <string-array name="basliklar">
+
+    </string-array>
+    <string-array name="icerikler">
+
+    </string-array>
+
+</resources>

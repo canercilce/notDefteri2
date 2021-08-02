@@ -1,0 +1,2 @@
+rootProject.name = "notDefteri2"
+include ':app'

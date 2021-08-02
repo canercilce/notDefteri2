@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/baslik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ba_l_k"
+        app:layout_constraintBottom_toTopOf="@+id/icerik"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.175" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/icerik"
+        android:layout_width="396dp"
+        android:layout_height="303dp"
+        android:hint="@string/i_erik"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/kaydet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kaydet"
+        app:backgroundTint="#4CAF50"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/icerik" />
+
+    <Button
+        android:id="@+id/iptal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ptal"
+        app:backgroundTint="#F44336"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/icerik" />
+
+    <TextView
+        android:id="@+id/DateAndTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="3dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/iptal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/icerik" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
